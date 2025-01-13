@@ -1,7 +1,14 @@
 # my-macropad-rp2040
 
-## Adafruit MacroPad RP2040
-[adafruit.com](https://www.adafruit.com/product/5128)
+## summary
+
+my old keypad started acking up so I'm resurecting the Adafruit MacroPad RP2040 that I bought a while ago. the first thing I found is that I have no idea how to use it...
+
+- [CircuitPython Workflow for Adafruit MacroPad RP2040 - Claude](https://claude.ai/chat/2a722a16-fe01-4148-8100-2ea50729d584)
+- [will-wright-eng/my-macropad-rp2040](https://github.com/will-wright-eng/my-macropad-rp2040/tree/main?tab=readme-ov-file)
+- [Adafruit MacroPad RP2040 Starter Kit - 3x4 Keys + Encoder + OLED [ADABOX019 Essentials] : ID 5128 : Adafruit Industries, Unique & fun DIY electronics and kits](https://www.adafruit.com/product/5128)
+- [The CIRCUITPY Drive | Welcome to CircuitPython! | Adafruit Learning System](https://learn.adafruit.com/welcome-to-circuitpython/the-circuitpy-drive)
+- [MacroPad RP2040 Download](https://circuitpython.org/board/adafruit_macropad_rp2040/)
 
 ## Setup Notes
 
