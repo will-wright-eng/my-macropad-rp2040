@@ -14,6 +14,34 @@ my old keypad started acking up so I'm resurecting the Adafruit MacroPad RP2040 
 
 ### 2025-01-12
 
+1. board is currently running old version of CircuitPython
+
+```
+Adafruit CircuitPython 7.3.3 on 2022-08-29; Adafruit Macropad RP2040 with rp2040
+Board ID:adafruit_macropad_rp2040
+```
+
+- make sure volume is mounted at `/Volumes/RPI-RP2`
+- download latest version
+- flash to board
+- reboot
+
+```bash
+make upgrade
+```
+
+2. redownload mpy files to ensure compatibility
+
+```bash
+make libs
+```
+
+3. deploy latest code
+
+```bash
+make deploy
+```
+
 - [Adafruit MacroPad RP2040 Starter Kit - 3x4 Keys + Encoder + OLED [ADABOX019 Essentials] : ID 5128 : Adafruit Industries, Unique & fun DIY electronics and kits](https://www.adafruit.com/product/5128)
 - [The CIRCUITPY Drive | Welcome to CircuitPython! | Adafruit Learning System](https://learn.adafruit.com/welcome-to-circuitpython/the-circuitpy-drive)
 - [MacroPad RP2040 Download](https://circuitpython.org/board/adafruit_macropad_rp2040/)

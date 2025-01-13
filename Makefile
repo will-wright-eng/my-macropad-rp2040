@@ -32,7 +32,7 @@ backup: ## create backup
 
 libs: ## install library dependencies
 	@echo "Installing CircuitPython libraries..."
-	bash ${SCRIPTS_DIR}/manage_libs.sh install
+	bash ${SCRIPTS_DIR}/lib-mgmt.sh install
 
 libs-clean: ## clean library directory
 	@echo "Cleaning library directory..."
